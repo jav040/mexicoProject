@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFB366;
+
+
+}
+
+#top-container {  
+    background-image: url("https://s3.amazonaws.com/cdn.matadornetwork.com/blogs/1/2019/02/Tijuana-street-lined-with-bars-and-shops-1200x853.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+
+}
+
+#info-container {  
+    display: grid;
+    grid-template-columns: 10% repeat(1, 1fr) 10%;
+    grid-template-rows: 10% repeat(4, 1fr) 10%;
+    min-height: 80vh;
+}
+
+h3 {
+    color: white;
+    font-size: 38px;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.description {
+    color: white;
+    font-size: 25px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#form-container {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
